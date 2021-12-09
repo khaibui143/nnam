@@ -9,7 +9,7 @@ aside {
   overflow-y: auto;
   display: grid;
   grid-template-rows: auto 1fr;
-  border-right: 4px solid black;
+  border-right: 1px solid gray;
   -ms-overflow-style: none;
   scrollbar-width: none;
   position: fixed;
@@ -35,7 +35,7 @@ aside::-webkit-scrollbar {
   right: 0;
   background-color: white;
   z-index: 10;
-  border-bottom: 4px solid black;
+  border-bottom: 1px solid gray;
   z-index: 11;
 }
 
@@ -56,7 +56,7 @@ aside::-webkit-scrollbar {
 }
 
 .filter label.hr {
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 input[type="checkbox"] {
@@ -77,7 +77,7 @@ input:checked + label {
 }
 
 header {
-  border-bottom: 4px solid black;
+  border-bottom: 1px solid gray;
   background-color: white;
   z-index: 9;
   padding: 0 20px;
@@ -120,7 +120,7 @@ nav a {
 
 .page-load-status {
   display: none; 
-  border-top: 4px solid black;
+  border-top: 1px solid gray;
   text-align: center;
 }
 
@@ -142,7 +142,7 @@ nav a {
 
 .item .image-container {
   overflow: hidden;
-  border: 1px solid gray;
+  border: 1px solid #BBB;
 }
 
 .image-container img {
@@ -172,7 +172,7 @@ nav a {
 }
 
 .box {
-  border: 1px solid gray;
+  border: 1px solid #BBB;
   padding: 10px;
   width: 578px;
   /* transition: color 0.5s ease;
