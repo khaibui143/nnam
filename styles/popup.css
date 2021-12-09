@@ -28,14 +28,14 @@
   padding: 50px;
 }
 
-.popup .close-popup {
+.close-popup {
   text-align: right;
-  padding:5px 5px;
+  margin: 50px;
   font-size: 50px;
   font-weight: lighter;
 
 }
 
 .popup h1 {
-  font-size: 50px;
+  font-size: 70px;
 }

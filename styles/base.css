@@ -110,7 +110,7 @@ a {
   text-decoration: none;
 }
 
-nav a {
+nav a, .item a {
   color: black;
 }
 
@@ -174,7 +174,6 @@ nav a {
 .box {
   border: 1px solid #BBB;
   padding: 10px;
-  width: 578px;
   /* transition: color 0.5s ease;
   transition: background-color 0.5s ease; */
 }
