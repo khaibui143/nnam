@@ -1,0 +1,41 @@
+.popup {
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  background-color: white;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
+
+[aria-hidden="false"] {
+  display: block;
+}
+.noscroll {
+  overflow: hidden;
+}
+
+
+.popup .page {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+.popup .close-popup {
+  text-align: right;
+  padding:5px 5px;
+  font-size: 50px;
+  font-weight: lighter;
+
+}
+
+.popup h1 {
+  font-size: 50px;
+}
