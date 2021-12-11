@@ -50,7 +50,7 @@ function shuffle(array) {
 
   return array;
 }
-const list = Array.from(Array(4).keys());
+const list = Array.from(Array(5).keys());
 list.shift();
 shuffle(list);
 let infScroll = new InfiniteScroll(grid, {
