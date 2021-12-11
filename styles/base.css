@@ -213,3 +213,7 @@ nav a, .item a {
   justify-content: center;
   overflow: hidden;
 }
+
+.grid {
+  background-color: white;
+}
