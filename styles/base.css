@@ -202,3 +202,14 @@ nav a, .item a {
     width: 90%;
   }
 }
+
+#landing {
+  border-bottom: 1px solid gray;
+  height: 100vh;
+}
+
+.cover {
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}
